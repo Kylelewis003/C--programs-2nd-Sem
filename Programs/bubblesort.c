@@ -1,11 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n , temp , i , j;
+    int n , temp , i , j , a[1000];
     printf("Enter the number of array elements : \n");
     scanf("%d",&n);
-
-    int a[n];
 
     printf("Enter %d numbers : \n",n);
     for(i = 0; i<n ; i++)

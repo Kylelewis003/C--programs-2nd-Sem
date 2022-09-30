@@ -1,22 +1,21 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,j,temp;
+    int n,i,j,temp,a[1000];
     printf("Enter the number of elements : \n");
     scanf("%d",&n);
-
-    int a[n];
 
     printf("Enter array elements : \n");
     for(i = 0 ; i<n ; i++)
     {
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
     }
     printf("Array before sorting : \n");
     for(i = 0 ; i<n ; i++)
     {
         printf("%d ",a[i]);
     }
+    printf("\n");
 
     for(i = 0 ; i<n-1 ; i++)
     {
@@ -35,6 +34,7 @@ int main()
     {
         printf("%d ",a[i]);
     }
+    printf("\n");
 
     int high , low , mid , x;
 
