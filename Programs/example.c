@@ -1,19 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int m,n;
-    printf("Enter the first number : \n");
-    scanf("%d",&m);
-    printf("Enter the first number : \n");
-    scanf("%d",&n);
-
-    if(m%n==1)
+    int i;
+    char str[100];
+    printf("Enter string :\n");
+    scanf("%s",str[i]);
+    for(i = 0 ; str[i]!='\0' ; i++)
     {
-        printf("1");
-    }
-    else
-    {
-        printf("0");
+        printf("%s",str[i]);
     }
     return 0;
+
 }
